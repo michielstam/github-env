@@ -13,6 +13,7 @@ jobs:
       MONGODB_CLUSTER_ADDRESS: cluster0.jmuxnlg.mongodb.net
       MONGODB_USERNAME: mbstam
       MONGODB_PASSWORD: 8SPS3QWGtdgnH02s
+      PORT: 8080
     runs-on: ubuntu-latest
     steps:
       - name: Get Code
